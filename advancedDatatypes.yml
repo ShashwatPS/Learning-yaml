@@ -60,3 +60,16 @@ people: !!omap
       age: 19
       height: Qutub Minar
 
+#Reusing some Properties using anchor
+likings: &likes
+  fav fruit: mango
+  dislikes: some green dish
+
+person1:
+  name: Shashwat
+  <<: *likes
+
+person2:
+  name: Snehal
+  <<: *likes
+  dislikes: grapes

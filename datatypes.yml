@@ -17,6 +17,9 @@ message: >
   is Shashwat Pratap
   Singh
 
+#Above message is same as
+message1: Hello my name is Shashwat Pratap Singh
+
 #Other Datatypes
 number: 543 # Integer
 marks: 99.5 # float

@@ -1,0 +1,62 @@
+student: !!seq
+  - marks
+  - name
+  - roll_no
+
+#like this also
+cities: [new delhi,mumbai]
+
+# Sparse seq - Some of the keys of the seq will be empty
+sparse seq:
+  - hey
+  - how
+  -
+  - Null
+  - sup
+
+#Nested Sequences
+-
+  - mango
+  - apple
+  - banana
+-
+  - marks
+  - roll num
+  - date
+
+#Key:Value pairs are caleed maps
+!! map
+
+#Nested mapping: map within a map
+name: Shashwat
+role:
+  age: 18                            # Could be also Written as
+  job: Currently a student           # role: {age: 18,job: Currently a student}
+
+# Pairs: keys may have duplicate values
+# !!pairs
+
+pair example: !!pairs
+  - job: Student
+  - job: Dumb
+
+#same as
+    pair example: !!pairs [job:student,job:teacher]
+#This will be an array of HashTables
+
+# !!set will allow you have unique values
+? Shashwat
+? Snehal
+? Sharad
+
+#Dictionary !!omap
+people: !!omap
+  - SPS:
+      name: Shashwat Singh
+      age: 18
+      height: dont know
+  - Snehal:
+      name: Snehal Saurabh
+      age: 19
+      height: Qutub Minar
+

@@ -1,12 +1,18 @@
 "name": "Shashwat" #key value pair
 
-#Creating a list in yaml
+---
+#Creating a list in yaml (yaml dosen't provides multi line comment)
  -apple
- -Apple   #yaml is case sensitive
- -Mango
+ -Apple   #yaml is case sensitive                       #--- are used to separate documents in yaml basically you can say that this 
+ -Mango                                                 # yaml file has 3 documents/files
+---
 
 cities:
   - new Delhi
   - mumbai     # Indentation/Spaces matters in yaml
   - gujrat
-
+---
+cities: [new delhi,mumbai]                              #Another way of storing data
+---
+{mango: "yellow fruit", age: 56}                        #Another way of storing
+...                                                     # ... these 3 dots are used to specify the end of a file

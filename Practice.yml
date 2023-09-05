@@ -1,4 +1,12 @@
-"name": "Shashwat" # Key Value Pair
+"name": "Shashwat" #key value pair
 
-  - apple
-  -
+#Creating a list in yaml
+ -apple
+ -Apple   #yaml is case sensitive
+ -Mango
+
+cities:
+  - new Delhi
+  - mumbai     # Indentation/Spaces matters in yaml
+  - gujrat
+

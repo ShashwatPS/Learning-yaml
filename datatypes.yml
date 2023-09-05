@@ -1,0 +1,23 @@
+#Anything that we write after the colon (:) is known as a variable
+
+#Strings
+myself: Shashwat Pratap Singh
+aim: "Cracking gsoc, Research intern, and going to mercari"
+focus: 'Completing all the small goals that i have'
+
+bio: |                                    # | Preserves the indentation/spaces of the lines written.
+  Hello my name is Shashwat           
+  Pratap Singh currently pursuing a   
+  major in CS from JUET
+
+# Writing a single line in multiple lines (means the lines below will be treated as a single line, it is just
+# written in multiple lines useful when the sentence/line is too long
+message: >
+  Hello my name 
+  is Shashwat Pratap
+  Singh
+
+#Other Datatypes
+number: 543 # Integer
+marks: 99.5 # float
+flag: No #Boolean

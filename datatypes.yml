@@ -24,3 +24,27 @@ message1: Hello my name is Shashwat Pratap Singh
 number: 543 # Integer
 marks: 99.5 # float
 flag: No #Boolean
+#For false you can write n,N,false,False,FALSE same goes for true
+
+#Specify the type
+zero: !!int 0
+positiveNum: !!int 45
+negativeNum: !!int -45
+binaryNum: !!int 0b11001
+octalNum: !!int 06574
+hexa: !!int 0x45
+commaValue: !!int +540_000 #540,000
+
+#For floating point numbers
+marks1: !!float 56.98
+infinite: !!float .inf
+not a num: .nan
+
+#For String it is str
+
+#null
+surname: !!null NULL # or null NULL ~
+~ : this is a null key
+
+#date and time
+date: !!timestamp 2004:12-22
